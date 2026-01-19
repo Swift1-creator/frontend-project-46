@@ -3,4 +3,11 @@
 
 gendiff -h
 
-node bin/gendiff __fixtures__/file1.json __fixtures__/file2.json
+gendiff filepath1.json filepath2.json
+
+
+
+## Demo
+
+[![asciicast](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5 )](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5 )
+
