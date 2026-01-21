@@ -24,4 +24,6 @@ gendiff filepath1.json filepath2.json
 
 [![asciicast](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5 )](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5 )
 
+## Demo (YAML)
 
+[![asciicast](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5)](https://asciinema.org/connect/db7c4909-8613-46a4-805b-abaf8fc515b5)
