@@ -6,7 +6,7 @@
 
 [![hexlet-check](https://github.com/Swift1-creator/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Swift1-creator/frontend-project-46/actions/workflows/hexlet-check.yml)
 
-.
+
 
 [![CI](https://github.com/Swift1-creator/frontend-project-46/actions/workflows/ci.yml/badge.svg)](https://github.com/Swift1-creator/frontend-project-46/actions/workflows/ci.yml)
 
