@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-const stringifyValue = value => {
+const stringifyValue = (value) => {
   if (_.isPlainObject(value)) {
     return '[complex value]'
   }
@@ -14,7 +14,7 @@ const stringifyValue = value => {
 }
 
 const iter = (tree, parentPath) => {
-  const lines = tree.flatMap(node => {
+  const lines = tree.flatMap((node) => {
     const {
       key, type, value, value1, value2, children,
     } = node

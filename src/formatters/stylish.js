@@ -24,7 +24,7 @@ const iter = (tree, depth) => {
   const currentIndent = getIndent(depth)
   const bracketIndent = getBracketIndent(depth)
 
-  const lines = tree.flatMap(node => {
+  const lines = tree.flatMap((node) => {
     const {
       key, type, value, value1, value2, children,
     } = node

@@ -5,7 +5,7 @@ const buildDiff = (obj1, obj2) => {
   const keys2 = Object.keys(obj2)
   const allKeys = _.sortBy(_.uniq([...keys1, ...keys2]))
 
-  return allKeys.map(key => {
+  return allKeys.map((key) => {
     const has1 = Object.hasOwn(obj1, key)
     const has2 = Object.hasOwn(obj2, key)
     const val1 = obj1[key]

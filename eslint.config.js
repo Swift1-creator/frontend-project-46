@@ -1,6 +1,6 @@
 export default [
   {
-    ignores: ['node_modules', 'dist', 'coverage']
+    ignores: ['node_modules', 'dist', 'coverage'],
   },
   {
     files: ['**/*.js', '**/*.mjs'],
@@ -12,11 +12,11 @@ export default [
         process: 'readonly',
         // глобалы Jest
         test: 'readonly',
-        expect: 'readonly'
-      }
+        expect: 'readonly',
+      },
     },
     rules: {
       // свои правила можно добавлять сюда
-    }
-  }
-];
+    },
+  },
+]
